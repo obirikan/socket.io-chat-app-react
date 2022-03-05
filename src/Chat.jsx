@@ -1,5 +1,4 @@
 import React, { useState,useEffect } from 'react'
-// import { Box } from '@chakra-ui/react'
 import { Center, Button,SimpleGrid,Text, Container, Stack,Spacer, Input, Box, Heading } from '@chakra-ui/react'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import './App.css'
