@@ -4,9 +4,10 @@ const app=express()
 const {Server}=require('socket.io')
 const cors=require('cors')
 app.use(cors())
+//must add a .env file to it and a Procfile
 
 const server=http.createServer(app)
-
+//allows communication with frontend 
 const io = new Server(server, {
     cors: {
       origin: "http://localhost:3000",
@@ -32,7 +33,7 @@ const io = new Server(server, {
   })
 
 
-
+//using http to listen to port
   
 server.listen(3001, () => {
     console.log("SERVER RUNNING");
