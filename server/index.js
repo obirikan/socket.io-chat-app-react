@@ -7,6 +7,7 @@ app.use(cors())
 //must add a .env file to it and a Procfile
 
 const server=http.createServer(app)
+
 //allows communication with frontend 
 const io = new Server(server, {
     cors: {
