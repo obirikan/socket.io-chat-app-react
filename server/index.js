@@ -4,7 +4,7 @@ const app=express()
 const {Server}=require('socket.io')
 const cors=require('cors')
 app.use(cors())
-//must add a .env file to it and a Procfile
+//must add a .env file to it and a Procfile (hosting)
 
 const server=http.createServer(app)
 
