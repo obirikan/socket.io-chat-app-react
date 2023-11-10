@@ -36,7 +36,6 @@ const io = new Server(server, {
 
 
 //using http to listen to port
-  
 server.listen(3001, () => {
     console.log("SERVER RUNNING");
   });
